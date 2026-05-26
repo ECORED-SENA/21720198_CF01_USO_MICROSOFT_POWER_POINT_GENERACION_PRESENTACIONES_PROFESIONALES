@@ -1,17 +1,18 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Fundamentos y uso del entorno de Microsoft Power Point para la creación de diapositivas',
+    Description:
+      'Este componente formativo, permitirá reconocer y utilizar de manera adecuada el entorno de la aplicación, creando presentaciones básicas mediante el uso de herramientas esenciales, diseños prediseñados y la inserción de elementos visuales, de acuerdo con requerimientos académicos y del entorno productivo, fortaleciendo así tus habilidades digitales bajo el enfoque de formación por competencias del SENA. Estos componentes formativos son de carácter general y se pueden adaptar a las necesidades de la comunidad educativa.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
       },
     ],
   },

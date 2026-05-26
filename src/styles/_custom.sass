@@ -3,56 +3,53 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
+    top: 40%
     left: -10%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 50%
     right: 10%
     width: 20%
-
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-.banner-principal__row .banner-principal__img 
-    width: 33%;
-    
+.banner-principal__row .banner-principal__img
+  width: 33%
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  color: $color-sistema-texto !important
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
   color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
+.banner-interno__titulo h1, .banner-interno__titulo h2,
+.banner-interno__titulo h3, .banner-interno__titulo h4,
 .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
+  color: $color-sistema-texto !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: $color-sistema-texto !important
+figcaption
+  font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+  color: $color-acento-botones !important
 
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/img1.png) !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -65,12 +62,6 @@ figcaption
   &-1
     background-color: $color-primario
 
-
-
-
-
-
-
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -78,29 +69,128 @@ figcaption
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
-    margin-bottom: 2em  !important 
+    margin-bottom: 2em !important
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
-    margin-bottom: 2em  !important  
+    margin-bottom: 2em !important
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
 
-  
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
-    margin-bottom: 2em  !important  
-
-  
+    margin-bottom: 2em !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
-    margin-bottom: 2em  !important
+    margin-bottom: 2em !important
 
-  
- 
+/// TITULOS TERCER NIVEL
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: #FF9F11
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 52px
+  min-height: 48px
+
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+
+  &__icon
+    position: absolute
+    left: 8px
+    top: 50%
+    transform: translateY(-50%)
+    width: 55px
+    max-width: 65px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 15px
+    white-space: normal
+    word-break: break-word
+
+.tarjeta.color-acento-contenido
+  background-color: #E6E2D4
+.tabs-a__tab
+  background-color: #727069
+.tabs-a__tab__text
+  color: $white
+
+.tarjeta.color-primario1
+  background-color: #FFFFFF
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.png)
+    background-size: cover
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c2
+    background-color: #FDCF64
+  &-c3
+    background-color: #45572B
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+    @media screen and (max-width: $bp-min-sm)
+      margin-bottom: -24px
+  &-c4
+    background-image: url(../assets/curso/tema1/img1.png)
+    background-size: cover
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c5
+    background-color: #45572B
+  &-c6
+    background-color: #E8DED5
+  &-c7
+    background-color: #E7EEDC
+    border-radius: 18px
+    height: 450px
+    @media screen and (max-width: $bp-min-lg)
+      height: 400px
+  &-c8
+    background-image: url(../assets/curso/tema1/img7.png)
+    background-size: cover
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c9
+    background-color: #45572B
+    margin-inline: -3.2rem !important
+  &-c10
+    background-color: #E7EEDC
+  &-c11
+    background-image: url(../assets/curso/tema2/img1.png)
+    background-size: cover
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-c12
+    background-color: #D1DFBB
+    border-radius: 18px
+    height: 438px
+    @media screen and (max-width: $bp-min-xxl)
+      height: 520px
+    @media screen and (max-width: $bp-min-xl)
+      height: 650px
+    @media screen and (max-width: $bp-min-lg)
+      height: auto
+  &-c13
+    background-color: #E6E2D4
+    border-radius: 18px
+  &-c14
+    background-color: #D1DFBB
+    border-radius: 18px
+  &-c15
+    background-color: #F5F3ED
