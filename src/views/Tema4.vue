@@ -27,7 +27,7 @@
               .col-lg(data-aos="fade-left")
                 p.mb-0 La configuración del tamaño y formato de las diapositivas debe realizarse antes de iniciar el diseño visual. Microsoft PowerPoint permite seleccionar proporciones como 16:9 o 4:3, según el medio donde será utilizada la presentación. Una configuración inadecuada puede generar distorsiones visuales o problemas de compatibilidad durante la proyección. Por ello, se recomienda definir estas características desde el inicio del proyecto.
             .row.mb-4
-              .col-md-6.col-lg-4.mb-4
+              .col-md-6.col-lg-4.mb-4(data-aos="fade-right")
                 .p-4.bg-c20.h-100
                   .row.align-items-center
                     .col-md-auto.mb-4.mb-md-0
@@ -36,7 +36,7 @@
                     .col-md
                       p.text-white.mb-0 #[b Proporción 16:9]
                       p.text-white.mb-0 Pantallas modernas, televisores y proyectores actuales.
-              .col-md-6.col-lg-4.mb-4
+              .col-md-6.col-lg-4.mb-4(data-aos="fade-left")
                 .p-4.bg-c20.h-100
                   .row.align-items-center
                     .col-md-auto.mb-4.mb-md-0
@@ -45,7 +45,7 @@
                     .col-md
                       p.text-white.mb-0 #[b Proporción 4:3]
                       p.text-white.mb-0 Proyectores antiguos o equipos tradicionales.
-              .col-md-6.col-lg-4.mb-4
+              .col-md-6.col-lg-4.mb-4(data-aos="fade-right")
                 .p-4.bg-c20.h-100
                   .row.align-items-center
                     .col-md-auto.mb-4.mb-md-0
@@ -54,7 +54,7 @@
                     .col-md
                       p.text-white.mb-0 #[b Orientación horizontal]
                       p.text-white.mb-0 Presentaciones convencionales.
-              .col-md-6.col-lg-4.mb-4.mb-lg-0
+              .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
                 .p-4.bg-c20.h-100
                   .row.align-items-center
                     .col-md-auto.mb-4.mb-md-0
@@ -63,7 +63,7 @@
                     .col-md
                       p.text-white.mb-0 #[b Orientación vertical]
                       p.text-white.mb-0 Infografías, piezas digitales o formatos especiales.
-              .col-md-6.col-lg-4
+              .col-md-6.col-lg-4(data-aos="fade-right")
                 .p-4.bg-c20.h-100
                   .row.align-items-center
                     .col-md-auto.mb-4.mb-md-0
@@ -72,7 +72,7 @@
                     .col-md
                       p.text-white.mb-0 #[b Definición inicial]
                       p.text-white.mb-0 Evita ajustes posteriores en textos e imágenes.
-            p.mb-4 A continuación, se presenta el procedimiento básico para configurar el tamaño de diapositiva y aplicar diseños iniciales dentro de la herramienta.
+            p.mb-4(data-aos="fade-right") A continuación, se presenta el procedimiento básico para configurar el tamaño de diapositiva y aplicar diseños iniciales dentro de la herramienta.
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/76YE9CSfkpw?si=jBybqqQ-8mRxP31n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -80,7 +80,7 @@
       #t_4_2
       .titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 4.2 Temas prediseñados
-      p Microsoft PowerPoint ofrece una amplia variedad de temas prediseñados que integran combinaciones coordinadas de colores, tipografías, fondos y efectos visuales. Estos recursos permiten aplicar rápidamente una apariencia profesional y uniforme a toda la presentación, sin necesidad de configurar manualmente cada diapositiva. La selección del tema adecuado debe responder al contexto de la presentación, al perfil del público y al mensaje que se desea transmitir.
+      p(data-aos="fade-left") Microsoft PowerPoint ofrece una amplia variedad de temas prediseñados que integran combinaciones coordinadas de colores, tipografías, fondos y efectos visuales. Estos recursos permiten aplicar rápidamente una apariencia profesional y uniforme a toda la presentación, sin necesidad de configurar manualmente cada diapositiva. La selección del tema adecuado debe responder al contexto de la presentación, al perfil del público y al mensaje que se desea transmitir.
       .row.bg-c24
         .col-12
           .px-5
@@ -100,7 +100,7 @@
                 figure
                   img(src="@/assets/curso/tema4/img2.png", alt="", style="width: 540px;").m-auto
             .row.justify-content-center.mb-4
-              .col-lg-8
+              .col-lg-8(data-aos="fade-right")
                 AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
                   .row(titulo="Paleta de colores del tema")
                     .col-12
@@ -157,9 +157,9 @@
       .row.bg-c24
         .col-12
           .px-5
-            #t_4_2
+            #t_4_3
             .titulo-segundo.color-acento-contenido(data-aos="flip-up")
-              h2 4.2 Plantillas maestras
+              h2 4.3 Plantillas maestras
             .row.align-items-center.mb-3
               .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
                 p La creación de plantillas y el uso de diapositivas maestras representan uno de los recursos más potentes de Microsoft PowerPoint en entornos profesionales. Estas herramientas permiten definir estilos globales de títulos, textos, colores, fondos y distribución de elementos, asegurando uniformidad visual en toda la presentación.
@@ -179,7 +179,7 @@
               .col-lg-4(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema4/img10.png", alt="", style="width: 400px;").m-auto
-            p.mb-4 Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales una por una. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
+            p.mb-4(data-aos="fade-right") Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales una por una. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure

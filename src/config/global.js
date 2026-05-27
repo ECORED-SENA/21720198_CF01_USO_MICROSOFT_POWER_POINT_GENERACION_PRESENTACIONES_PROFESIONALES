@@ -97,13 +97,8 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Uso adecuado de diseños de diapositiva según el contenido',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
             titulo: 'Jerarquía de la información y secuencia visual ',
-            hash: 't_3_4',
+            hash: 't_3_3',
           },
         ],
       },
@@ -216,14 +211,71 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<i>Bytes</i>',
+      significado:
+        'unidad básica de almacenamiento digital utilizada para medir el tamaño de archivos, incluyendo presentaciones de PowerPoint y sus recursos multimedia.',
+    },
+    {
+      termino: 'Diapositiva maestra',
+      significado:
+        'herramienta que permite definir estilos globales de diseño, tipografía y formato, garantizando coherencia visual en toda la presentación.',
+    },
+    {
+      termino: 'Elementos visuales',
+      significado:
+        'recursos gráficos como imágenes, íconos, formas y gráficos que apoyan y refuerzan el mensaje de una diapositiva.',
+    },
+    {
+      termino: 'Formatos de archivo',
+      significado:
+        'tipos de extensión en los que puede guardarse una presentación (PPTX, PDF, PPSX, entre otros), según su uso y forma de distribución.',
+    },
+    {
+      termino: 'Gráficos vectoriales',
+      significado:
+        'imágenes compuestas por líneas y formas matemáticas que pueden escalarse sin perder calidad, ideales para íconos y logotipos en presentaciones.',
+    },
+    {
+      termino: 'Interfaz de PowerPoint',
+      significado:
+        'conjunto de elementos visuales que permiten la interacción del usuario con la aplicación, incluyendo la cinta de opciones, paneles y área de trabajo.',
+    },
+    {
+      termino: 'Jerarquía visual',
+      significado:
+        'organización de los elementos gráficos y textuales de una diapositiva para guiar la atención del espectador hacia la información más importante.',
+    },
+    {
+      termino: 'Mapas de bits',
+      significado:
+        'imágenes formadas por píxeles cuya calidad depende de la resolución, como fotografías digitales utilizadas en diapositivas.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia:
+        'Centro de Escritura Javeriano. (2022). <i>Guía para el diseño de ayudas visuales</i>. Pontificia Universidad Javeriana Cali.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Tecnológico del Cantábrico. (2015). <i>Presentaciones eficaces</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lidwell, W., Holden, K., y Butler, J. (2015). <i>Principios universales del diseño, revisados y actualizados</i>. Rockport Publishers. ',
+      link: 'https://books.google.com.co/books?id=l0QPECGQySYC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+    },
+    {
+      referencia:
+        'Microsoft Corporation. (2024). <i>Guía de inicio rápido de PowerPoint</i>. Soporte técnico de Microsoft.',
+      link: 'https://support.microsoft.com/es-es/powerpoint',
+    },
+    {
+      referencia:
+        'Velasco, J. (2020). <i>Comunicación visual y presentaciones de alto impacto</i>. Business School Press.',
+      link: '',
     },
   ],
   creditos: [
@@ -232,14 +284,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+          cargo: 'Líder del Ecosistema',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '---',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Olga Constanza Bermúdez',
+          cargo: 'Responsable de línea de producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -247,9 +298,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -257,19 +315,46 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: ' ',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -277,14 +362,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Javier Ricardo Ortiz Puentes',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

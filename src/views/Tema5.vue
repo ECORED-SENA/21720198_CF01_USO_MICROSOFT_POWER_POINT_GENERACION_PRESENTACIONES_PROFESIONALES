@@ -49,25 +49,25 @@
           figure
             img(src="@/assets/curso/tema5/img3.svg", alt="", style="width: 400px;").m-auto
       .row
-        .col-md-6.col-lg-3.mb-4.mb-lg-0
+        .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img4.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Imágenes]
             p.text-center.mb-0 Refuerzan mensajes, contextualizan información y mejoran el impacto visual. Deben ser pertinentes, nítidas y coherentes con el estilo general.
-        .col-md-6.col-lg-3.mb-4.mb-lg-0
+        .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img5.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Íconos]
             p.text-center.mb-0 Facilitan la síntesis de conceptos y mejoran la comprensión rápida de ideas o categorías.
-        .col-md-6.col-lg-3.mb-4.mb-md-0
+        .col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img6.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Formas]
             p.text-center.mb-0 Permiten estructurar procesos, destacar datos, conectar ideas o construir diagramas personalizados.
-        .col-md-6.col-lg-3
+        .col-md-6.col-lg-3(data-aos="fade-left")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img7.svg", alt="", style="width: 100px;").m-auto
@@ -90,7 +90,7 @@
           .p-5.bg-c15(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema5/img3.png", alt="Diapositiva con varios objetos seleccionados y herramientas de formato para alinear, distribuir, agrupar y ordenar elementos.", style="width: 500px;").m-auto
-      p.mb-4 Al seleccionar varios objetos visuales, es posible ordenarlos y ajustarlos rápidamente mediante las opciones de Formato, lo que optimiza tiempos de edición y mejora la consistencia visual.
+      p.mb-4(data-aos="fade-left") Al seleccionar varios objetos visuales, es posible ordenarlos y ajustarlos rápidamente mediante las opciones de Formato, lo que optimiza tiempos de edición y mejora la consistencia visual.
       .row.bg-c25.mb-4
         .col-12
           .px-5
@@ -101,7 +101,7 @@
                 .p-5.bg-c15(data-aos="fade-right")
                   figure
                     img(src="@/assets/curso/tema5/img4.png", alt="Forma editada en PowerPoint con nodos y controladores visibles para modificar curvas y contornos personalizados.", style="width: 500px;").m-auto
-            p.mb-4 Al utilizar las opciones de edición avanzada sobre una forma, pueden modificarse sus puntos de anclaje para generar transformaciones personalizadas. Esta funcionalidad amplía las posibilidades creativas y permite construir recursos gráficos ajustados a necesidades específicas. A continuación, se presentan las principales acciones de edición:
+            p.mb-4(data-aos="fade-left") Al utilizar las opciones de edición avanzada sobre una forma, pueden modificarse sus puntos de anclaje para generar transformaciones personalizadas. Esta funcionalidad amplía las posibilidades creativas y permite construir recursos gráficos ajustados a necesidades específicas. A continuación, se presentan las principales acciones de edición:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
@@ -144,7 +144,7 @@
                         img(src='@/assets/curso/tema5/img12.png' alt='', style="width: 100px;")
                     p.text-center #[b Edición de puntos]
                     p.text-center Personaliza formas mediante modificación de nodos y curvas.
-            p.mb-4 A continuación, se presenta el procedimiento general para insertar y manipular elementos visuales dentro de la herramienta.
+            p.mb-4(data-aos="fade-left") A continuación, se presenta el procedimiento general para insertar y manipular elementos visuales dentro de la herramienta.
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/NzoQrP4qTjs?si=OgTGzL7TsOeR4BRX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -155,25 +155,25 @@
         .col-lg(data-aos="fade-left")
           p.mb-0 El uso responsable de imágenes y recursos gráficos constituye un aspecto ético y legal fundamental en la creación de presentaciones profesionales. No todas las imágenes disponibles en internet pueden utilizarse libremente, por lo que resulta necesario conocer los tipos de licencias y las condiciones de uso.
       .row
-        .col-md-6.col-lg-3.mb-4.mb-lg-0
+        .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img10.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Licencias de uso]
             p.text-center.mb-0 Refuerzan mensajes, contextualizan información y mejoran el impacto visual. Deben ser pertinentes, nítidas y coherentes con el estilo general.
-        .col-md-6.col-lg-3.mb-4.mb-lg-0
+        .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img5.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Autoría]
             p.text-center.mb-0 Reconocer la fuente cuando sea requerido.
-        .col-md-6.col-lg-3.mb-4.mb-md-0
+        .col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img6.svg", alt="", style="width: 100px;").m-auto
             p.text-center #[b Bancos autorizados]
             p.text-center.mb-0 Utilizar repositorios confiables o recursos institucionales.
-        .col-md-6.col-lg-3
+        .col-md-6.col-lg-3(data-aos="fade-left")
           .p-4.bg-c22
             figure.mb-4
               img(src="@/assets/curso/tema5/img7.svg", alt="", style="width: 100px;").m-auto

@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo: </b>evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión y aplicación de los conceptos relacionados con el uso del entorno de Microsoft PowerPoint, la gestión estructural de presentaciones, el diseño básico y la organización de archivos, mediante preguntas conceptuales y casos de uso asociados a contextos académicos y productivos.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,61 +30,63 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la función principal de guardar un archivo en formato PPSX?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Permitir la edición simultánea entre varios colaboradores de una organización.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Iniciar la presentación de forma directa sin pasar por la interfaz de edición.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Comprimir automáticamente todas las imágenes para reducir el peso del archivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Asegurar que el archivo sea compatible con versiones de Office anteriores a 2010.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'Se desea modificar el logotipo en todas las diapositivas de una presentación de forma simultánea. ¿Qué herramienta debe utilizarse?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Temas prediseñados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Panel de selección.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Patrón de diapositivas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Estilos rápidos de imagen.',
               esCorrecta: false,
             },
           ],
@@ -93,29 +95,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué combinación de teclas permite duplicar un objeto o una diapositiva seleccionada?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Ctrl + M.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Ctrl + Shift + G.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Alt + Shift + Flecha Abajo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Ctrl + D.',
               esCorrecta: true,
             },
           ],
@@ -125,28 +127,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Al importar diapositivas mediante la función "Volver a utilizar diapositivas", ¿qué sucede si NO se marca la casilla "Mantener formato de origen"?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'La diapositiva importada conservará sus colores y fuentes originales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'El sistema impedirá la importación por conflicto de diseño.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto:
+                'La diapositiva adoptará el tema y estilo de la presentación actual.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Las diapositivas se insertarán como imágenes no editables.',
               esCorrecta: false,
             },
           ],
@@ -155,30 +161,32 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál es la principal ventaja de utilizar el formato PDF para distribuir una presentación?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Mantiene la integridad del diseño y evita modificaciones no autorizadas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Permite que el receptor edite los gráficos de SmartArt fácilmente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Conserva todas las transiciones y animaciones complejas.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Es el único formato que permite la reproducción de videos incrustados.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +196,31 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            'Según el enfoque del componente formativo, Microsoft PowerPoint debe entenderse principalmente como:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Un proyector de diapositivas básico para apoyo de oradores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Un lienzo de diseño visual y herramienta de comunicación estratégica.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Un editor exclusivo de texto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Un <i>software</i> de edición fotográfica y de imágenes fácil de usar con enfoque de edición.',
               esCorrecta: false,
             },
           ],
@@ -218,29 +229,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: 'La narrativa visual en PowerPoint permite principalmente:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Aumentar la cantidad de texto en las diapositivas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Reducir la carga cognitiva y mejorar la comprensión.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Sustituir completamente la exposición oral a través de presentaciones grabadas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Eliminar la necesidad de estructura.',
               esCorrecta: false,
             },
           ],
@@ -249,29 +260,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: 'Una presentación informativa se caracteriza por:',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Transmitir datos de forma objetiva y clara.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Buscar persuadir emocionalmente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Enseñar competencias prácticas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Presentar únicamente gráficos decorativos.',
               esCorrecta: false,
             },
           ],
@@ -280,20 +290,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'La cinta de opciones se organiza en:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ventanas flotantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pestañas, grupos y comandos.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Capas visuales en paneles laterales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Paneles ocultos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +321,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Para agrupar varios objetos gráficos en una sola unidad, se debe presionar:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ctrl + G.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ctrl + Alt + V.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'D) Ctrl + U.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ctrl + Shift + ].',
               esCorrecta: false,
             },
           ],
@@ -323,19 +352,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'La herramienta <b>"Comprimir imágenes"</b> tiene como uno de sus objetivos principales:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Cambiar el formato de JPG a vectores de alta resolución.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Eliminar las áreas recortadas de las imágenes para liberar espacio.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Aplicar filtros artísticos de forma masiva a toda la presentación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Corregir automáticamente el brillo y contraste de las fotografías.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +386,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué tipo de presentación tiene como objetivo principal influir en las creencias o comportamientos del público para facilitar una decisión?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Persuasiva.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Informativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ejecutiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Formativa.',
               esCorrecta: false,
             },
           ],
@@ -364,19 +416,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'El comando <b>"Alt + F10"</b> se utiliza técnicamente para:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '.PPTX',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '.POTX',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '.PPSX',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '.PDF',
               esCorrecta: false,
             },
           ],
@@ -386,19 +447,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué utilidad tiene el "Panel de Notas" en la interfaz de trabajo?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Configurar los hipervínculos que irán en el índice interactivo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Almacenar información adicional que no es visible para el público en la proyección.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Listar los errores de ortografía detectados en la diapositiva actual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Controlar el orden de las capas de los objetos gráficos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -407,18 +481,32 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Una organización requiere que todos sus empleados generen reportes mensuales con el mismo tipo de letra, el logo en la esquina superior derecha y un fondo azul específico. ¿Cuál es la estrategia más eficiente para lograr esto?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Diseñar una Plantilla Maestra (.POTX) y distribuirla para que sea utilizada como base en cada reporte.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Enviar un manual de marca en PDF para que cada empleado configure su presentación manualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Crear un tema personalizado y pedir a los usuarios que busquen los colores hexadecimales cada vez.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Pedir a los empleados que copien y peguen las diapositivas de un reporte viejo en uno nuevo.',
               esCorrecta: false,
             },
           ],
@@ -429,78 +517,6 @@ export default {
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }

@@ -34,7 +34,7 @@
             .col-12
               .p-4.bg-c22
                 p.mb-0 La optimización del peso de una presentación constituye una práctica esencial cuando los archivos deben compartirse, almacenarse o proyectarse en diferentes dispositivos y plataformas. Un archivo excesivamente pesado puede generar dificultades de envío, tiempos de carga elevados y fallos durante la presentación, afectando la experiencia del usuario y la percepción de profesionalismo.
-          p.mb-0 Microsoft PowerPoint ofrece herramientas específicas para reducir el tamaño de los archivos sin comprometer significativamente la calidad visual. Una de las prácticas más relevantes es la compresión de imágenes, que permite disminuir la resolución de los recursos gráficos según el medio de uso final, como pantalla, proyección o distribución digital (Microsoft Corporation, 2024).
+          p.mb-0(data-aos="fade-right") Microsoft PowerPoint ofrece herramientas específicas para reducir el tamaño de los archivos sin comprometer significativamente la calidad visual. Una de las prácticas más relevantes es la compresión de imágenes, que permite disminuir la resolución de los recursos gráficos según el medio de uso final, como pantalla, proyección o distribución digital (Microsoft Corporation, 2024).
       .row.bg-c18
         .col-12
           .px-5
@@ -112,7 +112,111 @@
       #t_6_2
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 6.2 Guardado de presentaciones en distintos formatos
-      p.mb-4 El guardado de presentaciones en diferentes formatos responde a necesidades específicas de uso, distribución y compatibilidad. Microsoft PowerPoint permite almacenar archivos en formatos editables, de visualización y de distribución, lo que amplía las posibilidades de uso más allá del entorno de edición. La selección adecuada del formato debe considerar el propósito de la presentación, el público objetivo y el medio de entrega. A continuación, se presentan los formatos más utilizados y su aplicación recomendada:
+      p.mb-4(data-aos="fade-left") El guardado de presentaciones en diferentes formatos responde a necesidades específicas de uso, distribución y compatibilidad. Microsoft PowerPoint permite almacenar archivos en formatos editables, de visualización y de distribución, lo que amplía las posibilidades de uso más allá del entorno de edición. La selección adecuada del formato debe considerar el propósito de la presentación, el público objetivo y el medio de entrega. A continuación, se presentan los formatos más utilizados y su aplicación recomendada:
+      .row.bg-c26
+        .col-12
+          .px-5
+            TabsA.color-acento-botones.mb-4(data-aos="fade-left")
+              .tarjeta.color-acento-contenido.p-4(titulo="PPTX")
+                .row.align-items-center
+                  .col-lg.mb-4.mb-lg-0
+                    p.mb-0 Formato editable estándar de PowerPoint. Permite modificar contenidos, diseños y elementos multimedia.
+                  .col-lg-auto
+                    figure
+                      img(src="@/assets/curso/tema6/img10.svg", alt="", style="width: 80px;").m-auto
+              .tarjeta.color-acento-contenido.p-4(titulo="PDF")
+                .row.align-items-center
+                  .col-lg.mb-4.mb-lg-0
+                    p.mb-0 Formato de distribución que conserva el diseño original y limita modificaciones no autorizadas.
+                  .col-lg-auto
+                    figure
+                      img(src="@/assets/curso/tema6/img11.svg", alt="", style="width: 80px;").m-auto
+              .tarjeta.color-acento-contenido.p-4(titulo="PPSX")
+                .row.align-items-center
+                  .col-lg.mb-4.mb-lg-0
+                    p.mb-0 Abre directamente en modo presentación al hacer doble clic. Resulta útil para exposiciones o entregas finales.
+                  .col-lg-auto
+                    figure
+                      img(src="@/assets/curso/tema6/img12.svg", alt="", style="width: 80px;").m-auto
+              .tarjeta.color-acento-contenido.p-4(titulo="JPG / PNG")
+                .row.align-items-center
+                  .col-lg.mb-4.mb-lg-0
+                    p.mb-0 Adecuados para compartir diapositivas individuales o reutilizar contenido en otras plataformas.
+                  .col-lg-auto
+                    figure
+                      img(src="@/assets/curso/tema6/img13.svg", alt="", style="width: 80px;").m-auto
+              .tarjeta.color-acento-contenido.p-4(titulo="Video")
+                .row.align-items-center
+                  .col-lg.mb-4.mb-lg-0
+                    p.mb-0 Convierte la presentación en un recurso multimedia autónomo, útil para formación virtual o difusión digital.
+                  .col-lg-auto
+                    figure
+                      img(src="@/assets/curso/tema6/img14.svg", alt="", style="width: 80px;").m-auto
+            .row.align-items-center.mb-4
+              .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
+                figure
+                  img(src="@/assets/curso/tema6/img15.svg", alt="", style="width: 100px;").m-auto
+              .col-lg(data-aos="fade-left")
+                p.mb-0 En contextos institucionales, el uso de formatos no editables contribuye a la protección de la información y al control del contenido compartido (Instituto Tecnológico del Cantábrico, 2015). Antes de entregar o publicar una presentación, se recomienda verificar aspectos técnicos y de contenido para asegurar una correcta experiencia de uso.
+            .row
+              .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+                .p-4.bg-c22
+                  figure.mb-4
+                    img(src="@/assets/curso/tema6/img16.svg", alt="", style="width: 100px;").m-auto
+                  p.text-center #[b Revisión del contenido y estructura]
+                  p.text-center.mb-0 Confirmar claridad, secuencia lógica y ausencia de errores.
+              .col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
+                .p-4.bg-c22
+                  figure.mb-4
+                    img(src="@/assets/curso/tema6/img17.svg", alt="", style="width: 100px;").m-auto
+                  p.text-center #[b Verificación de fuentes y multimedia]
+                  p.text-center.mb-0 Comprobar que imágenes, audios o videos funcionen correctamente.
+              .col-md-6.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
+                .p-4.bg-c22
+                  figure.mb-4
+                    img(src="@/assets/curso/tema6/img18.svg", alt="", style="width: 100px;").m-auto
+                  p.text-center #[b Prueba de animaciones y transiciones]
+                  p.text-center.mb-0 Validar tiempos y comportamiento en modo presentación.
+              .col-md-6.col-lg-3(data-aos="fade-left")
+                .p-4.bg-c22
+                  figure.mb-4
+                    img(src="@/assets/curso/tema6/img19.svg", alt="", style="width: 100px;").m-auto
+                  p.text-center #[b Adecuación del formato de salida]
+                  p.text-center.mb-0 Ajustar el archivo según correo, plataforma virtual o proyección.
+            Separador
+            #t_6_3
+            .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 6.3 Importación y reutilización de diapositivas
+            p.mb-4(data-aos="fade-right") La capacidad de integrar material preexistente en nuevas presentaciones optimiza el tiempo de desarrollo y favorece la consistencia del mensaje institucional. Microsoft PowerPoint ofrece funcionalidades avanzadas para importar diapositivas de otros archivos, conservando o adaptando su diseño según la necesidad del proyecto.
+      .titulo-sexto.color-secundario.mb-3
+        p.mb-0 #[b Figura 13.] Pasos para la reutilización de diapositivas de otro archivo PowerPoint
+      .row.mb-4
+        .col-12
+          .p-5.bg-c15(data-aos="fade-right")
+            figure
+              img(src="@/assets/curso/tema6/img6.png", alt="Panel lateral de reutilización de diapositivas con selección de archivo origen y miniaturas disponibles para insertar.", style="width: 700px;").m-auto
+      p.mb-4 A continuación, se presenta el procedimiento general para reutilizar diapositivas de otra presentación:
+      .row.align-items-center
+        .col-lg-7(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+            .row(titulo="Paso 1. Acceso al comando")
+              .col-12
+                p.mb-0 Ingresar a la pestaña Insertar y seleccionar Nueva diapositiva.
+            .row(titulo="Paso 2. Activación de la herramienta")
+              .col-12
+                p.mb-0 En el menú desplegable, elegir Volver a utilizar diapositivas.
+            .row(titulo="Paso 3. Selección del archivo origen")
+              .col-12
+                p.mb-0 En el panel lateral, buscar y seleccionar la presentación de origen.
+            .row(titulo="Paso 4. Selección del contenido")
+              .col-12
+                p.mb-0 Elegir la diapositiva o grupo de diapositivas que se desea incorporar.
+            .row(titulo="Paso 5. Inserción en la presentación actual")
+              .col-12
+                p.mb-0 Incorporar la diapositiva seleccionada en el archivo de destino.
+        .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+          figure
+            img(src='@/assets/curso/tema6/img7.png' alt='', style="width: 450px;").m-auto
 
 </template>
 
