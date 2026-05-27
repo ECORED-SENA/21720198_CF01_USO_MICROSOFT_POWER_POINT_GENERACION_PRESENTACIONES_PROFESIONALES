@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="95" viewBox="0 0 77 95">
+  <g id="Grupo_1204334" data-name="Grupo 1204334" transform="translate(-928.642 -1945.976)">
+    <g id="Rectángulo_411447" data-name="Rectángulo 411447" transform="translate(928.642 1945.976)" fill="#4083e1" stroke="#2e353c" stroke-width="1.5">
+      <rect width="42" height="20" rx="3" stroke="none"/>
+      <rect x="0.75" y="0.75" width="40.5" height="18.5" rx="2.25" fill="none"/>
+    </g>
+    <g id="Rectángulo_411448" data-name="Rectángulo 411448" transform="translate(929.642 2019.976)" fill="#df5327" stroke="#2e353c" stroke-width="1.5">
+      <rect width="41" height="21" rx="10" stroke="none"/>
+      <rect x="0.75" y="0.75" width="39.5" height="19.5" rx="9.25" fill="none"/>
+    </g>
+    <path id="Trazado_1244310" data-name="Trazado 1244310" d="M5450.827-9579.795h13.726v-28.952" transform="translate(-4472.91 11610.313)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_1244311" data-name="Trazado 1244311" d="M5446.54-9652.5h18.152v11.724" transform="translate(-4473.095 11608.411)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Grupo_1204332" data-name="Grupo 1204332" transform="translate(945.799 1965.825)">
+      <path id="Trazado_1244312" data-name="Trazado 1244312" d="M5424-9643v12.145" transform="translate(-5419.874 9643)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_1244313" data-name="Trazado 1244313" d="M5420.045-9633.946l4.07,3.9,4.61-3.9" transform="translate(-5420.045 9643.393)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Grupo_1204333" data-name="Grupo 1204333" transform="translate(945.799 2004.432)">
+      <path id="Trazado_1244312-2" data-name="Trazado 1244312" d="M5424-9643v12.145" transform="translate(-5419.874 9643)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_1244313-2" data-name="Trazado 1244313" d="M5420.045-9633.946l4.07,3.9,4.61-3.9" transform="translate(-5420.045 9643.393)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Trazado_1244314" data-name="Trazado 1244314" d="M5420.045-9633.946l4.07,3.9,4.61-3.9" transform="translate(-4432.434 11598.783)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_1244315" data-name="Trazado 1244315" d="M0,0l4.07,3.9L8.68,0" transform="translate(980.639 2026.177) rotate(90)" fill="none" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Elipse_12534" data-name="Elipse 12534" transform="translate(977.642 1970.976)" fill="#5da344" stroke="#2e353c" stroke-width="1.5">
+      <ellipse cx="14" cy="13.5" rx="14" ry="13.5" stroke="none"/>
+      <ellipse cx="14" cy="13.5" rx="13.25" ry="12.75" fill="none"/>
+    </g>
+    <path id="Trazado_1244309" data-name="Trazado 1244309" d="M5406.318-9615.64l18.744-12.1,18.151,12.1-18.151,11.508Z" transform="translate(-4474.842 11609.486)" fill="#f6b430" stroke="#2e353c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

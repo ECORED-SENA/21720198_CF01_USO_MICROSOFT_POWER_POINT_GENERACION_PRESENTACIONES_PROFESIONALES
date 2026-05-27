@@ -91,21 +91,21 @@
                 .row.justify-content-center.align-items-center.p-4
                   .col-lg-6.mb-4.mb-lg-0
                     p #[b Producción de activos digitales]
-                    p El #[i software] opera como editor de gráficos vectoriales y mapas de bits. Facilita la creación de infografías, banners y recursos educativos exportables en formatos de alta fidelidad como PNG y JPG, lo que favorece la interoperabilidad con otras plataformas web.
+                    p.mb-0 El #[i software] opera como editor de gráficos vectoriales y mapas de bits. Facilita la creación de infografías, banners y recursos educativos exportables en formatos de alta fidelidad como PNG y JPG, lo que favorece la interoperabilidad con otras plataformas web.
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema1/img8.png', alt='', style="width: 450px;").m-auto
                 .row.justify-content-center.align-items-center.p-4
                   .col-lg-6.mb-4.mb-lg-0
                     p #[b Síntesis de la información compleja]
-                    p Mediante jerarquías visuales y diagramación técnica, los contenidos densos se comprenden con mayor eficiencia. Se prioriza un enfoque en el que el diseño responde a la función comunicativa y evita la sobrecarga cognitiva.
+                    p.mb-0 Mediante jerarquías visuales y diagramación técnica, los contenidos densos se comprenden con mayor eficiencia. Se prioriza un enfoque en el que el diseño responde a la función comunicativa y evita la sobrecarga cognitiva.
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema1/img9.png', alt='', style="width: 450px;").m-auto
                 .row.justify-content-center.align-items-center.p-4
                   .col-lg-6.mb-4.mb-lg-0
                     p #[b Gestión de documentos dinámicos]
-                    p Supera la presentación lineal tradicional y permite desarrollar catálogos interactivos, reportes de gestión y manuales de procedimiento que integran recursos multimedia de manera cohesiva.
+                    p.mb-0 Supera la presentación lineal tradicional y permite desarrollar catálogos interactivos, reportes de gestión y manuales de procedimiento que integran recursos multimedia de manera cohesiva.
                   .col-lg-6
                     figure
                       img(src='@/assets/curso/tema1/img10.png', alt='', style="width: 450px;").m-auto
