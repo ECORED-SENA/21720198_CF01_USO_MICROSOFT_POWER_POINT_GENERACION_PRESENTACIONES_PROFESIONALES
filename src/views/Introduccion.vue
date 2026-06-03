@@ -15,7 +15,7 @@
                 figure
                   img(src="@/assets/curso/intro/img2.png", alt="", style="width: 300px;").m-auto
               .col-lg-9(data-aos="fade-left")
-                p Microsoft PowerPoint es mucho más que una herramienta para crear diapositivas: es un medio clave para comunicar ideas, apoyar decisiones y transmitir información de forma clara y visual en contextos académicos, laborales y empresariales. En este componente formativo comenzarás a explorar las posibilidades que ofrece PowerPoint para estructurar y presentar contenidos de manera profesional, comprendiendo su papel dentro de los entornos productivos actuales.
+                p Microsoft PowerPoint es mucho más que una herramienta para crear diapositivas: #[b es un medio clave para comunicar ideas, apoyar decisiones y transmitir información de forma clara y visual en contextos académicos, laborales y empresariales]. En este componente formativo comenzarás a explorar las posibilidades que ofrece PowerPoint para estructurar y presentar contenidos de manera profesional, comprendiendo su papel dentro de los entornos productivos actuales.
                 .row
                   .col-xl.bg-c2.mb-4.mb-xl-0
                     .p-4.h-100
@@ -33,7 +33,7 @@
                 figure
                   img(src="@/assets/curso/intro/img4.png", alt="", style="width: 100px;").m-auto
               .col-lg(data-aos="fade-left")
-                p.text-white.mb-0 El desarrollo de los contenidos se abordará desde un enfoque práctico y progresivo, partiendo del reconocimiento del entorno de PowerPoint y avanzando hacia la gestión estructural de presentaciones, el uso de diseños prediseñados y la correcta integración de elementos visuales, siempre a través de ejemplos cercanos al contexto real y alineados con las exigencias del mundo laboral.
+                p.text-white.mb-0 El desarrollo de los contenidos se abordará desde #[b un enfoque práctico y progresivo], partiendo del reconocimiento del entorno de PowerPoint y avanzando hacia la gestión estructural de presentaciones, el uso de diseños prediseñados y la correcta integración de elementos visuales, siempre a través de ejemplos cercanos al contexto real y alineados con las exigencias del mundo laboral.
 
 </template>
 

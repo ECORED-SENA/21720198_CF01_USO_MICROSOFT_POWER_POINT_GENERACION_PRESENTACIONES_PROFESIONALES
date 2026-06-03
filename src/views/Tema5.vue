@@ -8,7 +8,7 @@
         h1 Inserción y edición de elementos visuales
       .row
         .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-          p En esta unidad temática se profundiza en el uso de elementos visuales dentro de Microsoft PowerPoint como recursos estratégicos para fortalecer la comunicación del mensaje. Se aborda la inserción, edición y optimización de imágenes, íconos y formas desde una perspectiva técnica y comunicativa, considerando criterios de diseño visual, derechos de autor y rendimiento del archivo. El dominio de estos elementos permite construir presentaciones claras, coherentes y alineadas con estándares profesionales, favoreciendo la comprensión de la información y el impacto visual en contextos académicos y productivos.
+          p En esta unidad temática se profundiza en el uso de elementos visuales dentro de Microsoft PowerPoint como recursos estratégicos para fortalecer la comunicación del mensaje. Se aborda #[b la inserción, edición y optimización de imágenes, íconos y formas] desde una perspectiva técnica y comunicativa, considerando criterios de diseño visual, derechos de autor y rendimiento del archivo. El dominio de estos elementos permite #[b construir presentaciones claras, coherentes y alineadas] con estándares profesionales, favoreciendo la comprensión de la información y el impacto visual en contextos académicos y productivos.
           .row
             .col-md-auto.mb-4.mb-md-0
               figure
@@ -17,7 +17,7 @@
               .p-4.bg-c21
                 .row.h-100.align-items-center
                   .col-12
-                    p.mb-0 Las personas procesan la información visual con mayor rapidez que el texto, lo que convierte a los elementos gráficos en aliados estratégicos para la transmisión efectiva de mensajes complejos (Lidwell, Holden, & Butler, 2015). En este sentido, Microsoft PowerPoint ofrece herramientas que permiten integrar recursos visuales de manera controlada y coherente, siempre que se apliquen criterios profesionales de selección y edición.
+                    p.mb-0 Las personas procesan la información visual con mayor rapidez que el texto, lo que convierte a #[b los elementos gráficos] en aliados estratégicos para la transmisión efectiva de mensajes complejos (Lidwell, Holden, & Butler, 2015). En este sentido, Microsoft PowerPoint ofrece herramientas que permiten integrar recursos visuales de manera controlada y coherente, siempre que se apliquen criterios profesionales de selección y edición.
         .col-lg-5(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema5/img1.png", alt="", style="width: 440px;").m-auto
@@ -43,8 +43,8 @@
           .row.mb-3
             .col-12
               .p-4.bg-c21
-                p.mb-0 Las imágenes utilizadas deben reforzar el contenido de la diapositiva. En entornos profesionales, se recomienda emplear recursos de alta resolución y estilo uniforme para mantener una identidad visual consistente a lo largo de la presentación.
-          p.mb-0 Las formas permiten organizar información, destacar conceptos y construir estructuras visuales claras. Rectángulos, círculos, flechas y líneas pueden utilizarse para enfatizar relaciones, procesos o jerarquías. Su uso avanzado implica integrarlas estratégicamente, respetando principios de alineación y proporción, y evitando la saturación visual. A continuación, se sintetizan los principales elementos visuales y su aplicación estratégica:
+                p.mb-0 Las imágenes utilizadas deben reforzar el contenido de la diapositiva. En entornos profesionales, se recomienda #[b emplear recursos de alta resolución y estilo uniforme para mantener una identidad visual] consistente a lo largo de la presentación.
+          p.mb-0 Las formas permiten #[b organizar información, destacar conceptos y construir estructuras visuales claras]. Rectángulos, círculos, flechas y líneas pueden utilizarse para enfatizar relaciones, procesos o jerarquías. Su uso avanzado implica integrarlas estratégicamente, respetando principios de alineación y proporción, y evitando la saturación visual. A continuación, se sintetizan los principales elementos visuales y su aplicación estratégica:
         .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema5/img3.svg", alt="", style="width: 400px;").m-auto
@@ -82,7 +82,7 @@
           figure
             img(src="@/assets/curso/tema5/img8.svg", alt="", style="width: 100px;").m-auto
         .col-lg(data-aos="fade-left")
-          p.mb-0 Una vez insertado un recurso visual, Microsoft PowerPoint ofrece herramientas para ajustar tamaño, recortar, alinear y conservar proporciones. Mantener la relación original de una imagen resulta fundamental para evitar distorsiones que afecten la calidad visual. La alineación precisa de imágenes y objetos contribuye a una presentación ordenada y profesional. Para ello, se recomienda utilizar guías, cuadrículas y opciones de alineación automática disponibles en la aplicación.
+          p.mb-0 Una vez insertado un recurso visual, Microsoft PowerPoint ofrece herramientas para #[b ajustar tamaño, recortar, alinear y conservar proporciones]. Mantener la relación original de una imagen resulta fundamental para evitar distorsiones que afecten la calidad visual. La alineación precisa de #[b imágenes y objetos contribuye a una presentación ordenada y profesional]. Para ello, se recomienda utilizar guías, cuadrículas y opciones de alineación automática disponibles en la aplicación.
       .titulo-sexto.color-secundario.mb-3
         p.mb-0 #[b Figura 10.] Aplicación de acciones y comandos a múltiples objetos visuales seleccionados
       .row.mb-4

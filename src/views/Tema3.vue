@@ -15,7 +15,7 @@
                   img(src="@/assets/curso/tema3/img1.png", alt="", style="width: 540px;").m-auto
               .col-lg-7(data-aos="fade-left")
                 .p-4.bg-c20
-                  p.text-white.mb-0 En esta unidad se aborda la gestión estructural de presentaciones como un proceso estratégico que permite organizar, jerarquizar y secuenciar la información de manera clara y coherente en Microsoft PowerPoint. Se profundiza en la planeación previa, la definición de objetivos, la identificación del público y la correcta organización de diapositivas, así como en el uso adecuado de diseños, textos y jerarquía tipográfica, con el fin de construir presentaciones profesionales que apoyen eficazmente la comunicación, la comprensión del mensaje y la toma de decisiones en contextos académicos y productivos.
+                  p.text-white.mb-0 En esta unidad se aborda la #[b gestión estructural de presentaciones] como un proceso estratégico que permite organizar, jerarquizar y secuenciar la información de manera clara y coherente en Microsoft PowerPoint. Se profundiza en la planeación previa, la definición de objetivos, la identificación del público y la correcta organización de diapositivas, así como en el uso adecuado de diseños, textos y jerarquía tipográfica, con el fin de construir presentaciones profesionales que apoyen eficazmente la comunicación, la comprensión del mensaje y la toma de decisiones en contextos académicos y productivos.
             Separador
             #t_3_1
             .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -166,7 +166,7 @@
                 .p-4.bg-c21
                   .row.align-items-center.h-100
                     .col-12
-                      p.mb-0 Microsoft PowerPoint ofrece distintos diseños de diapositiva creados para responder a necesidades específicas de organización visual y presentación del contenido. Entre los más utilizados se encuentran los diseños de título, título y contenido, comparación, dos contenidos, sección, imagen con texto y diapositiva en blanco. Cada uno facilita una distribución equilibrada de los elementos y permite comunicar la información con mayor claridad.
+                      p.mb-0 Microsoft PowerPoint ofrece distintos diseños de diapositiva creados para responder a necesidades específicas de organización visual y presentación del contenido. Entre los más utilizados se encuentran los diseños de título, título y contenido, comparación, dos contenidos, sección, imagen con texto y diapositiva en blanco. Cada uno facilita una #[b distribución equilibrada de los elementos] y permite comunicar la información con mayor claridad.
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
                 figure
                   img(src="@/assets/curso/tema3/img15.png", alt="", style="width: 400px;").m-auto
@@ -174,8 +174,8 @@
                 .p-4.bg-c22
                   .row.align-items-center.h-100
                     .col-12
-                      p.mb-0 La selección adecuada del diseño constituye una decisión estratégica dentro del proceso de creación de presentaciones profesionales. No todos los contenidos requieren la misma estructura visual; por ejemplo, una diapositiva de apertura necesita destacar el tema principal, mientras que una diapositiva comparativa exige espacios equivalentes para contrastar datos, ideas o resultados. De igual forma, los contenidos gráficos demandan áreas amplias que permitan integrar imágenes, diagramas o tablas sin afectar la legibilidad.
-            p.mb-4(data-aos="fade-right") Cuando el diseño de diapositiva se ajusta al propósito comunicativo, se fortalece la jerarquía visual, mejora la lectura y se optimiza la comprensión del mensaje por parte de la audiencia. Por el contrario, utilizar diseños inadecuados puede generar saturación visual, desorden informativo o pérdida de atención. Esto ocurre, por ejemplo, cuando se incorporan grandes bloques de texto en plantillas destinadas a recursos gráficos o cuando se concentran demasiados elementos en un solo espacio. A continuación, se presentan los diseños de diapositiva más frecuentes y su aplicación recomendada:
+                      p.mb-0 La selección adecuada del diseño constituye una #[b decisión estratégica dentro del proceso de creación] de presentaciones profesionales. No todos los contenidos requieren la misma estructura visual; por ejemplo, una diapositiva de apertura necesita destacar el tema principal, mientras que una diapositiva comparativa exige espacios equivalentes para contrastar datos, ideas o resultados. De igual forma, los contenidos gráficos demandan áreas amplias que permitan integrar #[b imágenes, diagramas o tablas] sin afectar la legibilidad.
+            p.mb-4(data-aos="fade-right") Cuando el diseño de diapositiva se ajusta al #[b propósito comunicativo], se fortalece la jerarquía visual, mejora la lectura y se optimiza la comprensión del mensaje por parte de la audiencia. Por el contrario, utilizar diseños inadecuados puede generar saturación visual, desorden informativo o pérdida de atención. Esto ocurre, por ejemplo, cuando se incorporan grandes bloques de texto en plantillas destinadas a recursos gráficos o cuando se concentran demasiados elementos en un solo espacio. A continuación, se presentan los diseños de diapositiva más frecuentes y su aplicación recomendada:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
@@ -248,16 +248,16 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
             .row(titulo="Diseños de diapositiva según el contenido")
               .col-12
-                p.mb-0 Seleccionar el diseño adecuado según el tipo de información permite equilibrio visual y mejor lectura. Se recomienda utilizar diseños de título, contenido, comparación o sección según la necesidad comunicativa.
+                p.mb-0.ms-5 Seleccionar el diseño adecuado según el tipo de información permite equilibrio visual y mejor lectura. Se recomienda utilizar diseños de título, contenido, comparación o sección según la necesidad comunicativa.
             .row(titulo="Uso incorrecto de diseños")
               .col-12
-                p.mb-0 Emplear diseños no acordes con el contenido puede afectar la jerarquía visual y generar confusión en la audiencia. Debe evitarse la sobrecarga de elementos en una sola diapositiva.
+                p.mb-0.ms-5 Emplear diseños no acordes con el contenido puede afectar la jerarquía visual y generar confusión en la audiencia. Debe evitarse la sobrecarga de elementos en una sola diapositiva.
             .row(titulo="Jerarquía de la información")
               .col-12
-                p.mb-0 Organiza visualmente los contenidos para dirigir la atención hacia los elementos prioritarios. Se construye mediante títulos, subtítulos, texto de apoyo y recursos gráficos.
+                p.mb-0.ms-5 Organiza visualmente los contenidos para dirigir la atención hacia los elementos prioritarios. Se construye mediante títulos, subtítulos, texto de apoyo y recursos gráficos.
             .row(titulo="Secuencia visual")
               .col-12
-                p.mb-0 Presentar la información en orden lógico mejora la comprensión del mensaje y disminuye la carga cognitiva del espectador (Lidwell, Holden, & Butler, 2015).
+                p.mb-0.ms-5 Presentar la información en orden lógico mejora la comprensión del mensaje y disminuye la carga cognitiva del espectador (Lidwell, Holden, & Butler, 2015).
         .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema3/img24.png' alt='', style="width: 450px;").m-auto
@@ -269,16 +269,16 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
             .row(titulo="Jerarquía tipográfica")
               .col-12
-                p.mb-0 Los títulos comunican la idea principal, los subtítulos complementan la información y el texto de apoyo desarrolla brevemente el contenido.
+                p.mb-0.ms-5 Los títulos comunican la idea principal, los subtítulos complementan la información y el texto de apoyo desarrolla brevemente el contenido.
             .row(titulo="Consistencia tipográfica")
               .col-12
-                p.mb-0 El uso coherente de tamaños, estilos y colores fortalece la claridad del mensaje y aporta una apariencia profesional.
+                p.mb-0.ms-5 El uso coherente de tamaños, estilos y colores fortalece la claridad del mensaje y aporta una apariencia profesional.
             .row(titulo="Extensión y densidad del contenido")
               .col-12
-                p.mb-0 Las diapositivas deben funcionar como apoyo visual del discurso y no como documentos extensos para lectura.
+                p.mb-0.ms-5 Las diapositivas deben funcionar como apoyo visual del discurso y no como documentos extensos para lectura.
             .row(titulo="Gestión del contenido")
               .col-12
-                p.mb-0 Es necesario definir qué información se presenta en la diapositiva y cuál se desarrolla oralmente o mediante el panel de notas. Esta práctica mejora la fluidez y mantiene la atención de la audiencia (Instituto Tecnológico del Cantábrico, 2015).
+                p.mb-0.ms-5 Es necesario definir qué información se presenta en la diapositiva y cuál se desarrolla oralmente o mediante el panel de notas. Esta práctica mejora la fluidez y mantiene la atención de la audiencia (Instituto Tecnológico del Cantábrico, 2015).
 
 </template>
 

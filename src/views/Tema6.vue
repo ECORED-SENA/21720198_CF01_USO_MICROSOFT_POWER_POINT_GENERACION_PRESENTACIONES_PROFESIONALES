@@ -8,7 +8,7 @@
         h1 Gestión de archivos y organización del trabajo
       .row.align-items-center
         .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
-          p En este apartado se abordan las prácticas avanzadas relacionadas con la gestión de archivos y la organización del trabajo en Microsoft PowerPoint, entendidas como competencias clave para garantizar la eficiencia, la calidad y la correcta distribución de presentaciones profesionales.
+          p En este apartado se abordan las prácticas avanzadas relacionadas con la gestión de archivos y la organización del trabajo en Microsoft PowerPoint, entendidas como competencias clave para garantizar #[b la eficiencia, la calidad y la correcta distribución de presentaciones profesionales].
           .row
             .col-md-auto.mb-4.mb-md-0
               figure
@@ -17,7 +17,7 @@
               .p-4.bg-c21
                 .row.h-100.align-items-center
                   .col-12
-                    p.mb-0 Se profundiza en la optimización del peso de los archivos sin afectar la calidad visual, el guardado en distintos formatos, la importación y edición de diapositivas entre presentaciones y la preparación de archivos para su entrega o publicación. Estos aspectos resultan fundamentales en contextos académicos, laborales y empresariales, donde el manejo responsable de la información digital constituye un requisito indispensable.
+                    p.mb-0 Se profundiza en la optimización del peso de los archivos sin afectar #[b la calidad visual], el guardado en distintos formatos, la importación y edición de diapositivas entre presentaciones y la preparación de archivos para su entrega o publicación. Estos aspectos resultan fundamentales en #[b contextos académicos, laborales y empresariales], donde el manejo responsable de la información digital constituye un requisito indispensable.
         .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema6/img1.png", alt="", style="width: 470px;").m-auto
@@ -33,8 +33,8 @@
           .row.mb-3
             .col-12
               .p-4.bg-c22
-                p.mb-0 La optimización del peso de una presentación constituye una práctica esencial cuando los archivos deben compartirse, almacenarse o proyectarse en diferentes dispositivos y plataformas. Un archivo excesivamente pesado puede generar dificultades de envío, tiempos de carga elevados y fallos durante la presentación, afectando la experiencia del usuario y la percepción de profesionalismo.
-          p.mb-0(data-aos="fade-right") Microsoft PowerPoint ofrece herramientas específicas para reducir el tamaño de los archivos sin comprometer significativamente la calidad visual. Una de las prácticas más relevantes es la compresión de imágenes, que permite disminuir la resolución de los recursos gráficos según el medio de uso final, como pantalla, proyección o distribución digital (Microsoft Corporation, 2024).
+                p.mb-0 La optimización del peso de una presentación constituye una práctica esencial cuando los archivos deben #[b compartirse, almacenarse o proyectarse en diferentes dispositivos y plataformas]. Un archivo excesivamente pesado puede generar dificultades de envío, tiempos de carga elevados y fallos durante la presentación, afectando la experiencia del usuario y la percepción de profesionalismo.
+          p.mb-0(data-aos="fade-right") Microsoft PowerPoint ofrece herramientas específicas para reducir el tamaño de los archivos sin comprometer significativamente la calidad visual. Una de las prácticas más relevantes es la compresión de imágenes, que permite disminuir la resolución de los recursos gráficos según el medio de #[b uso final, como pantalla, proyección o distribución digital] (Microsoft Corporation, 2024).
       .row.bg-c18
         .col-12
           .px-5
@@ -50,7 +50,7 @@
                 figure
                   img(src="@/assets/curso/tema6/img2.svg", alt="", style="width: 100px;").m-auto
               .col-lg(data-aos="fade-left")
-                p.mb-0 La herramienta Comprimir imágenes permite reducir el tamaño del archivo al disminuir la resolución de las imágenes y eliminar áreas recortadas. Esto resulta especialmente útil para compartir presentaciones por correo electrónico o publicarlas en plataformas con límites de tamaño. Además, permite aplicar la compresión a todas las imágenes o únicamente a las seleccionadas. A continuación, se presentan las principales acciones para optimizar archivos de manera profesional:
+                p.mb-0 La herramienta #[b Comprimir imágenes] permite reducir el tamaño del archivo al disminuir la resolución de las imágenes y eliminar áreas recortadas. Esto resulta especialmente útil para compartir presentaciones por #[b correo electrónico o publicarlas en plataformas] con límites de tamaño. Además, permite aplicar la compresión a todas las imágenes o únicamente a las seleccionadas. A continuación, se presentan las principales acciones para optimizar archivos de manera profesional:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
@@ -112,7 +112,7 @@
       #t_6_2
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 6.2 Guardado de presentaciones en distintos formatos
-      p.mb-4(data-aos="fade-left") El guardado de presentaciones en diferentes formatos responde a necesidades específicas de uso, distribución y compatibilidad. Microsoft PowerPoint permite almacenar archivos en formatos editables, de visualización y de distribución, lo que amplía las posibilidades de uso más allá del entorno de edición. La selección adecuada del formato debe considerar el propósito de la presentación, el público objetivo y el medio de entrega. A continuación, se presentan los formatos más utilizados y su aplicación recomendada:
+      p.mb-4(data-aos="fade-left") El guardado de presentaciones en diferentes formatos responde a necesidades específicas de uso, #[b distribución y compatibilidad]. Microsoft PowerPoint permite almacenar archivos en formatos editables, de visualización y de distribución, lo que amplía las posibilidades de uso más allá del entorno de edición. La selección adecuada del formato debe considerar el propósito de la presentación, el público objetivo y el medio de entrega. A continuación, se presentan los formatos más utilizados y su aplicación recomendada:
       .row.bg-c26
         .col-12
           .px-5
@@ -201,19 +201,19 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
             .row(titulo="Paso 1. Acceso al comando")
               .col-12
-                p.mb-0 Ingresar a la pestaña Insertar y seleccionar Nueva diapositiva.
+                p.mb-0.ms-5 Ingresar a la pestaña Insertar y seleccionar Nueva diapositiva.
             .row(titulo="Paso 2. Activación de la herramienta")
               .col-12
-                p.mb-0 En el menú desplegable, elegir Volver a utilizar diapositivas.
+                p.mb-0.ms-5 En el menú desplegable, elegir Volver a utilizar diapositivas.
             .row(titulo="Paso 3. Selección del archivo origen")
               .col-12
-                p.mb-0 En el panel lateral, buscar y seleccionar la presentación de origen.
+                p.mb-0.ms-5 En el panel lateral, buscar y seleccionar la presentación de origen.
             .row(titulo="Paso 4. Selección del contenido")
               .col-12
-                p.mb-0 Elegir la diapositiva o grupo de diapositivas que se desea incorporar.
+                p.mb-0.ms-5 Elegir la diapositiva o grupo de diapositivas que se desea incorporar.
             .row(titulo="Paso 5. Inserción en la presentación actual")
               .col-12
-                p.mb-0 Incorporar la diapositiva seleccionada en el archivo de destino.
+                p.mb-0.ms-5 Incorporar la diapositiva seleccionada en el archivo de destino.
         .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/img7.png' alt='', style="width: 450px;").m-auto
