@@ -11,8 +11,8 @@
           .px-5
             .row.align-items-center
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-                p Tradicionalmente, se ha limitado el uso de Microsoft PowerPoint a una ayuda visual para oradores. Sin embargo, en el ecosistema empresarial moderno, el software ha evolucionado hasta convertirse en una herramienta de comunicación estratégica y diseño ágil (Microsoft Corporation, 2024).
-                p Tradicionalmente, se ha limitado el uso de Microsoft PowerPoint a una ayuda visual para oradores. Sin embargo, en el ecosistema empresarial moderno, el software ha evolucionado hasta convertirse en una herramienta de comunicación estratégica y diseño ágil (Microsoft Corporation, 2024).
+                p PowerPoint es una aplicación enfocada en la presentación y comunicación de toda clase de contenidos. Posiblemente, este es el #[i software] más subestimado de la suite de Microsoft Office; la mayoría lo percibe como un proyector de diapositivas con pocas posibilidades, cuando en realidad es un #[b lienzo de diseño vectorial y editorial altamente accesible], capaz de alcanzar gran potencia según el nivel de experticia del usuario en esta aplicación.
+                p Tradicionalmente, se ha limitado el uso de Microsoft PowerPoint a una ayuda visual para oradores. Sin embargo, en el ecosistema empresarial moderno, el #[i software] ha evolucionado hasta convertirse en una herramienta de comunicación estratégica y diseño ágil (Microsoft Corporation, 2024).
                 .row.mb-3
                   .col-12
                     .p-4.bg-c5.rounded

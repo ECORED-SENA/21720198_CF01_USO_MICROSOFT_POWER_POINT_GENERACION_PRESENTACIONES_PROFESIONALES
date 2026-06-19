@@ -12,7 +12,7 @@
             .row
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
                 .p-4.bg-c13
-                  p.mb-0 La aplicación de temas, estilos y diseños prediseñados en Microsoft PowerPoint permite mantener coherencia visual, fortalecer la identidad gráfica y mejorar la efectividad comunicativa de una presentación profesional. En contextos académicos y empresariales, estos recursos facilitan la organización del contenido y proyectan una imagen más ordenada y profesional.
+                  p.mb-0 La aplicación de #[b temas, estilos y diseños] prediseñados en Microsoft PowerPoint permite mantener coherencia visual, fortalecer la identidad gráfica y mejorar la efectividad comunicativa de una presentación profesional. En #[b contextos académicos y empresariales], estos recursos facilitan la organización del contenido y proyectan una imagen más ordenada y profesional.
               .col-lg-5(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema4/img1.svg", alt="", style="width: 540px;").m-auto
@@ -25,7 +25,7 @@
                 figure
                   img(src="@/assets/curso/tema4/img3.svg", alt="", style="width: 100px;").m-auto
               .col-lg(data-aos="fade-left")
-                p.mb-0 La configuración del tamaño y formato de las diapositivas debe realizarse antes de iniciar el diseño visual. Microsoft PowerPoint permite seleccionar proporciones como 16:9 o 4:3, según el medio donde será utilizada la presentación. Una configuración inadecuada puede generar distorsiones visuales o problemas de compatibilidad durante la proyección. Por ello, se recomienda definir estas características desde el inicio del proyecto.
+                p.mb-0 La configuración del tamaño y formato de las diapositivas debe realizarse antes de iniciar el diseño visual. Microsoft PowerPoint permite seleccionar proporciones como #[b 16:9] o #[b 4:3], según el medio donde será utilizada la presentación. Una configuración inadecuada puede generar distorsiones visuales o problemas de compatibilidad durante la proyección. Por ello, se recomienda definir estas características desde el inicio del proyecto.
             .row.mb-4
               .col-md-6.col-lg-4.mb-4(data-aos="fade-right")
                 .p-4.bg-c20.h-100
@@ -80,7 +80,7 @@
       #t_4_2
       .titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 4.2 Temas prediseñados
-      p(data-aos="fade-left") Microsoft PowerPoint ofrece una amplia variedad de temas prediseñados que integran combinaciones coordinadas de colores, tipografías, fondos y efectos visuales. Estos recursos permiten aplicar rápidamente una apariencia profesional y uniforme a toda la presentación, sin necesidad de configurar manualmente cada diapositiva. La selección del tema adecuado debe responder al contexto de la presentación, al perfil del público y al mensaje que se desea transmitir.
+      p(data-aos="fade-left") Microsoft PowerPoint ofrece una amplia variedad de temas prediseñados que integran combinaciones coordinadas de #[b colores, tipografías, fondos y efectos visuales]. Estos recursos permiten aplicar rápidamente una apariencia profesional y uniforme a toda la presentación, sin necesidad de configurar manualmente cada diapositiva. La selección del tema adecuado debe responder al contexto de la presentación, al perfil del público y al mensaje que se desea transmitir.
       .row.bg-c24
         .col-12
           .px-5
@@ -94,8 +94,8 @@
                           figure
                             img(src="@/assets/curso/tema4/img4.svg", alt="", style="width: 60px;").m-auto
                         .col-md
-                          p.mb-0 En entornos corporativos, suele priorizarse el uso de temas sobrios, limpios y alineados con la identidad institucional. En escenarios académicos o formativos, pueden emplearse propuestas más dinámicas y expresivas, siempre que no comprometan la claridad del contenido. Cuando se elige un tema sin criterios funcionales, la presentación puede perder profesionalismo, dificultar la lectura o generar distracciones innecesarias. Por ello, se recomienda valorar cada tema no solo por su apariencia, sino también por su legibilidad, contraste y capacidad para organizar la información.
-                p.mb-0 Un tema corresponde a un conjunto de elementos de formato predefinidos que se aplican globalmente a una presentación para garantizar un aspecto armónico y consistente (Microsoft Corporation, 2024). Al seleccionar uno, no solo cambia el fondo de las diapositivas, sino que también se modifica la arquitectura visual completa del documento. Esto incluye estilos tipográficos, combinaciones cromáticas y acabados gráficos aplicados automáticamente a distintos objetos. A continuación, se presentan los pilares fundamentales de un tema estándar en Microsoft PowerPoint:
+                          p.mb-0 En entornos corporativos, suele priorizarse el uso de #[b temas sobrios, limpios y alineados con la identidad institucional]. En escenarios académicos o formativos, pueden emplearse propuestas más dinámicas y expresivas, siempre que no comprometan la claridad del contenido. Cuando se elige un tema sin criterios funcionales, la presentación puede perder profesionalismo, dificultar la lectura o generar distracciones innecesarias. Por ello, se recomienda valorar cada tema no solo por su apariencia, sino también por su #[b legibilidad, contraste y capacidad para organizar la información].
+                p.mb-0 Un tema corresponde a un conjunto de elementos de formato predefinidos que se aplican globalmente a una presentación para garantizar un #[b aspecto armónico] y consistente (Microsoft Corporation, 2024). Al seleccionar uno, no solo cambia el fondo de las diapositivas, sino que también se modifica la arquitectura visual completa del documento. Esto incluye estilos tipográficos, combinaciones cromáticas y acabados gráficos aplicados automáticamente a distintos objetos. A continuación, se presentan los pilares fundamentales de un tema estándar en Microsoft PowerPoint:
               .col-lg-5(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema4/img2.png", alt="", style="width: 540px;").m-auto
@@ -104,22 +104,22 @@
                 AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
                   .row(titulo="Paleta de colores del tema")
                     .col-12
-                      p Define un conjunto de colores para fondos, textos, acentos, vínculos e hipervínculos. Estos tonos están diseñados para funcionar de manera conjunta, conservar armonía visual y garantizar contraste suficiente para la lectura. También permiten adaptar la presentación a lineamientos de marca institucional.
-                      .titulo-sexto.color-secundario.mb-3
+                      p.ms-5 Define un conjunto de colores para fondos, textos, acentos, vínculos e hipervínculos. Estos tonos están diseñados para funcionar de manera conjunta, conservar armonía visual y garantizar contraste suficiente para la lectura. También permiten adaptar la presentación a lineamientos de marca institucional.
+                      .titulo-sexto.color-secundario.mb-3.ms-5
                         p.mb-0 #[b Figura 6.] Paleta de colores del tema
                       figure
                         img(src="@/assets/curso/tema4/img4.png", alt="Panel de selección de colores de tema en PowerPoint con combinaciones para textos, fondos y colores de acento.", style="width: 500px;").m-auto
                   .row(titulo="Fuentes del tema")
                     .col-12
-                      p Establece una combinación tipográfica compuesta, generalmente, por una fuente para títulos y otra para cuerpo de texto. Esto asegura uniformidad en la jerarquía visual y mejora la consistencia entre diapositivas.
-                      .titulo-sexto.color-secundario.mb-3
+                      p.ms-5 Establece una combinación tipográfica compuesta, generalmente, por una fuente para títulos y otra para cuerpo de texto. Esto asegura uniformidad en la jerarquía visual y mejora la consistencia entre diapositivas.
+                      .titulo-sexto.color-secundario.mb-3.ms-5
                         p.mb-0 #[b Figura 7.] Fuentes del tema
                       figure
                         img(src="@/assets/curso/tema4/img5.png", alt="Menú de PowerPoint con opciones de fuentes del tema para títulos y cuerpo de texto.", style="width: 500px;").m-auto
                   .row(titulo="Efectos del tema")
                     .col-12
-                      p Incluye atributos visuales aplicables a formas, gráficos y objetos SmartArt, como sombras, líneas, rellenos, bordes o reflejos. Su uso automatizado evita configurar manualmente cada elemento.
-                      ul.lista-ul--color
+                      p.ms-5 Incluye atributos visuales aplicables a formas, gráficos y objetos SmartArt, como sombras, líneas, rellenos, bordes o reflejos. Su uso automatizado evita configurar manualmente cada elemento.
+                      ul.lista-ul--color.ms-5
                         li.d-flex
                           i.fas.fa-arrow-circle-right
                           |
@@ -128,13 +128,13 @@
                           i.fas.fa-arrow-circle-right
                           |
                           p.mb-0 Al cambiar el tema, todos los elementos compatibles de la presentación se actualizan de forma automática, lo que agiliza rediseños generales.
-                      .titulo-sexto.color-secundario.mb-3
+                      .titulo-sexto.color-secundario.mb-3.ms-5
                         p.mb-0 #[b Figura 8.] Efectos del tema
                       figure
                         img(src="@/assets/curso/tema4/img6.png", alt="Galería de efectos visuales de PowerPoint con estilos aplicables a formas, gráficos y objetos.", style="width: 500px;").m-auto
             .row.align-items-center.mb-3
               .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-                p Además de la galería integrada, Microsoft PowerPoint permite personalizar cada componente del tema de manera independiente. Si un tema prediseñado no responde completamente a los requerimientos del proyecto, el usuario puede ajustar colores, reemplazar fuentes tipográficas o modificar efectos visuales. Esta flexibilidad resulta especialmente útil cuando se trabaja con manuales de identidad visual, presentaciones institucionales o líneas gráficas específicas.
+                p Además de la galería integrada, Microsoft PowerPoint permite personalizar cada componente del tema de manera independiente. Si un tema prediseñado no responde completamente a los requerimientos del proyecto, el usuario puede ajustar #[b colores, reemplazar fuentes tipográficas o modificar efectos visuales]. Esta flexibilidad resulta especialmente útil cuando se trabaja con manuales de identidad visual, presentaciones institucionales o líneas gráficas específicas.
                 .row
                   .col-12
                     .p-4.bg-c20
@@ -147,8 +147,7 @@
                 figure
                   img(src="@/assets/curso/tema4/img8.png", alt="", style="width: 540px;").m-auto
               .col-lg-7(data-aos="fade-left")
-                p Una vez realizados los ajustes, es posible guardar la configuración como archivo de tema personalizado (.thmx). Esta función permite reutilizar la misma estructura visual en futuras presentaciones, fortaleciendo la estandarización gráfica y optimizando tiempos de producción dentro de organizaciones o equipos de trabajo (Velasco, 2020).
-                p Desde una perspectiva profesional, se recomienda construir una biblioteca interna de temas corporativos aprobados, con colores institucionales, tipografías autorizadas y formatos consistentes. Esta práctica mejora la productividad, reduce errores de diseño y proyecta una imagen organizacional sólida.
+                p Desde una perspectiva profesional, se recomienda construir una #[b biblioteca interna de temas corporativos] aprobados, con #[b colores institucionales, tipografías autorizadas y formatos consistentes]. Esta práctica mejora la productividad, reduce errores de diseño y proyecta una imagen organizacional sólida.
                 .row
                   .col-12
                     .p-4.bg-c13
@@ -162,7 +161,7 @@
               h2 4.3 Plantillas maestras
             .row.align-items-center.mb-3
               .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-                p La creación de plantillas y el uso de diapositivas maestras representan uno de los recursos más potentes de Microsoft PowerPoint en entornos profesionales. Estas herramientas permiten definir estilos globales de títulos, textos, colores, fondos y distribución de elementos, asegurando uniformidad visual en toda la presentación.
+                p La creación de plantillas y el uso de diapositivas maestras representan uno de los recursos más potentes de Microsoft PowerPoint en entornos profesionales. Estas herramientas permiten definir estilos globales de #[b títulos, textos, colores, fondos y distribución de elementos], asegurando uniformidad visual en toda la presentación.
                 .row.mb-3
                   .col-12
                     .p-4.bg-c16
@@ -171,15 +170,15 @@
                           figure
                             img(src="@/assets/curso/tema4/img5.svg", alt="", style="width: 60px;").m-auto
                         .col-md
-                          p.mb-0 El uso de plantillas personalizadas resulta especialmente útil en organizaciones que requieren estandarizar presentaciones institucionales, ya que reduce tiempos de diseño, minimiza errores visuales y facilita el trabajo colaborativo. Cuando varios usuarios trabajan sobre una misma línea gráfica, las plantillas maestras garantizan que todos apliquen los mismos criterios de identidad visual.
+                          p.mb-0 El uso de plantillas personalizadas resulta especialmente útil en organizaciones que requieren estandarizar presentaciones institucionales, ya que reduce #[b tiempos de diseño, minimiza errores visuales y facilita el trabajo colaborativo]. Cuando varios usuarios trabajan sobre una misma línea gráfica, las plantillas maestras garantizan que todos apliquen los mismos criterios de identidad visual.
                 .row.mb-3
                   .col-12
                     .p-4.bg-c21
-                      p.mb-0 En el desarrollo de comunicaciones organizacionales, la consistencia gráfica constituye un factor crítico para la percepción de profesionalismo y para la consolidación de la marca institucional (Velasco, 2020). Si bien los temas prediseñados ofrecen una solución rápida de coherencia visual, las plantillas maestras representan el nivel más avanzado de control estructural y estandarización dentro de Microsoft PowerPoint.
+                      p.mb-0 En el desarrollo de comunicaciones organizacionales, la consistencia gráfica constituye un #[b factor crítico] para la percepción de profesionalismo y para la consolidación de la marca institucional (Velasco, 2020). Si bien los temas prediseñados ofrecen una solución rápida de coherencia visual, las plantillas maestras representan #[b el nivel más avanzado de control estructural y estandarización] dentro de Microsoft PowerPoint.
               .col-lg-4(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema4/img10.png", alt="", style="width: 400px;").m-auto
-            p.mb-4(data-aos="fade-right") Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales una por una. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
+            p.mb-4(data-aos="fade-right") Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo #[b fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos]. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales una por una. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
@@ -215,7 +214,7 @@
                       .col-6
                         img(src='@/assets/curso/tema4/img10.svg' alt='')
                     p.text-center #[b Identidad corporativa]
-                    p.text-center Refuerza la imagen institucional mediante uso constante de colores, fuentes y elementos de marca autorizados.
+                    p.text-center Refuerza la imagen institucional mediante el uso constante de colores, fuentes y elementos de marca autorizados.
                   .tarjeta.color-primario1.p-4
                     .row.justify-content-center.mb-3
                       .col-6

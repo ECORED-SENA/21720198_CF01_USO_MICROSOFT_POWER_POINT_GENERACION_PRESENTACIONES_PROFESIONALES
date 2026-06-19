@@ -95,7 +95,7 @@
                 .col-12
                   .p-4.bg-c14
                     p.mb-0 La cinta de opciones constituye el núcleo operativo de Microsoft PowerPoint. En ella se concentran las herramientas necesarias para crear, editar y presentar diapositivas. Su estructura se organiza en pestañas, grupos y comandos, lo que permite un acceso jerárquico y lógico a las funcionalidades del programa.
-          p.mb-0 Las pestañas principales: Inicio, Insertar, Diseño, Transiciones, Animaciones, Presentación con diapositivas, Revisar y Vista, agrupan comandos según su función. Cada pestaña contiene grupos específicos que reúnen herramientas relacionadas, lo que facilita su identificación y uso. El reconocimiento detallado de esta estructura permite seleccionar con rapidez las opciones adecuadas y mantener un flujo de trabajo continuo.
+          p.mb-0 Las pestañas principales: Inicio, Insertar, Diseño, Transiciones, Animaciones, Presentación con diapositivas, Revisar y Vista agrupan comandos según su función. Cada pestaña contiene grupos específicos que reúnen herramientas relacionadas, lo que facilita su identificación y uso. El reconocimiento detallado de esta estructura permite seleccionar con rapidez las opciones adecuadas y mantener un flujo de trabajo continuo.
         .col-lg-4(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema2/img4.png", alt="", style="width: 400px;").m-auto
@@ -196,10 +196,10 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
             .row(titulo="Panel de diapositivas")
               .col-12
-                p.mb-0 Ubicado generalmente en el lateral izquierdo de la interfaz. Permite reconocer la estructura general de la presentación, reorganizar diapositivas, duplicarlas, eliminarlas o modificar su orden. Favorece la coherencia narrativa, facilita la secuencia lógica del contenido y permite detectar redundancias, vacíos de información o desequilibrios entre diapositivas antes del diseño final.
+                p.mb-0.ms-5 Ubicado generalmente en el lateral izquierdo de la interfaz. Permite reconocer la estructura general de la presentación, reorganizar diapositivas, duplicarlas, eliminarlas o modificar su orden. Favorece la coherencia narrativa, facilita la secuencia lógica del contenido y permite detectar redundancias, vacíos de información o desequilibrios entre diapositivas antes del diseño final.
             .row(titulo="Panel de notas")
               .col-12
-                p.mb-0 Situado en la zona inferior del área de trabajo, debajo de la diapositiva activa. Permite incorporar observaciones, guiones, recordatorios y comentarios de apoyo para el expositor. Mejora la claridad del discurso, fortalece la preparación de la exposición y reduce la dependencia de la lectura directa de las diapositivas durante la presentación.
+                p.mb-0.ms-5 Situado en la zona inferior del área de trabajo, debajo de la diapositiva activa. Permite incorporar observaciones, guiones, recordatorios y comentarios de apoyo para el expositor. Mejora la claridad del discurso, fortalece la preparación de la exposición y reduce la dependencia de la lectura directa de las diapositivas durante la presentación.
       .titulo-tercer-nivel.mb-4(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/tema1/img13.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Área de trabajo, reglas, guías y cuadrículas
@@ -321,7 +321,7 @@
                       .col-8
                         img(src='@/assets/curso/tema2/img18.png' alt='')
                     p.text-center #[b Preferencias de guardado]
-                    p.text-center Aumentan la seguridad de la información y previenen pérdida de avances.
+                    p.text-center Aumentan la seguridad de la información y previenen la pérdida de avances.
       .row.bg-c9
         .col-12
           .p-5
@@ -345,8 +345,8 @@
               .row.align-items-center
                 .col-12
                   .p-4.bg-c14
-                    p.mb-0 El uso de atajos de teclado representa una práctica avanzada orientada a la optimización del tiempo de trabajo. Microsoft PowerPoint incorpora múltiples combinaciones de teclas que permiten ejecutar acciones frecuentes con rapidez, como duplicar diapositivas, alinear objetos o iniciar la presentación.
-          p.mb-0 En entornos productivos, el dominio de estos atajos se asocia con un desempeño más eficiente y profesional. Su uso constante reduce la dependencia del ratón y agiliza procesos repetitivos, aspecto especialmente relevante en proyectos que requieren la creación o edición de múltiples presentaciones (Microsoft Corporation, 2024). A continuación, se relacionan algunos atajos de teclado de alta utilidad en el trabajo cotidiano:
+                    p.mb-0 El uso de atajos de teclado representa una #[b práctica avanzada] orientada a la optimización del tiempo de trabajo. Microsoft PowerPoint incorpora múltiples combinaciones de teclas que permiten ejecutar acciones frecuentes con rapidez, como duplicar diapositivas, alinear objetos o iniciar la presentación.
+          p.mb-0 En entornos productivos, el dominio de estos atajos se asocia con un #[b desempeño más eficiente y profesional]. Su uso constante reduce la dependencia del ratón y agiliza procesos repetitivos, aspecto especialmente relevante en proyectos que requieren la creación o edición de múltiples presentaciones (Microsoft Corporation, 2024). A continuación, se relacionan algunos atajos de teclado de alta utilidad en el trabajo cotidiano:
         .col-lg-4(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema2/img19.png", alt="", style="width: 400px;").m-auto

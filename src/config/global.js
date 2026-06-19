@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Fundamentos y uso del entorno de Microsoft Power Point para la creación de diapositivas',
+    Name: 'Fundamentos y uso del entorno de Microsoft PowerPoint para la creación de diapositivas',
     Description:
-      'Este componente formativo, permitirá reconocer y utilizar de manera adecuada el entorno de la aplicación, creando presentaciones básicas mediante el uso de herramientas esenciales, diseños prediseñados y la inserción de elementos visuales, de acuerdo con requerimientos académicos y del entorno productivo, fortaleciendo así tus habilidades digitales bajo el enfoque de formación por competencias del SENA. Estos componentes formativos son de carácter general y se pueden adaptar a las necesidades de la comunidad educativa.',
+      'Este componente formativo permitirá reconocer y utilizar de manera adecuada el entorno de la aplicación, creando presentaciones básicas mediante el uso de herramientas esenciales, diseños prediseñados y la inserción de elementos visuales, de acuerdo con requerimientos académicos y del entorno productivo, fortaleciendo así tus habilidades digitales bajo el enfoque de formación por competencias del SENA.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -284,7 +284,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -362,7 +363,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Javier Ricardo Ortiz Puentes',
+          nombre: 'Ricardo Oliceveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
