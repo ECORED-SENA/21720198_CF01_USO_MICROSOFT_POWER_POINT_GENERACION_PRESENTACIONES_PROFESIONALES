@@ -178,7 +178,7 @@
               .col-lg-4(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema4/img10.png", alt="", style="width: 400px;").m-auto
-            p.mb-4(data-aos="fade-right") Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo #[b fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos]. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales una por una. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
+            p.mb-4(data-aos="fade-right") Se define la plantilla maestra como una diapositiva especial que almacena información sobre el tema y los diseños de diapositiva de una presentación, incluyendo #[b fondo, colores, tipografías, efectos, tamaños de marcadores de posición y ubicación de estos elementos]. Su función principal consiste en actuar como la matriz estructural de la presentación. Cualquier cambio realizado en la diapositiva maestra se replica automáticamente en las diapositivas vinculadas, evitando ajustes manuales uno por uno. A continuación, se presentan los componentes y ventajas principales de las plantillas maestras:
             .row.align-items-center.mb-4
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure

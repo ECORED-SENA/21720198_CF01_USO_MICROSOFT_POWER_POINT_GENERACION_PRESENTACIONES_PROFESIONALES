@@ -155,9 +155,9 @@
                     p #[b Validación estructural previa]
                     p.mb-0 Se recomienda revisar la secuencia completa antes de aplicar diseños complejos, ya que esta práctica reduce retrabajos y mejora la eficiencia del proceso (Lidwell, Holden, & Butler, 2015).
       Separador
-      #t_3_2
+      #t_3_3
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.2 Uso adecuado de diseños de diapositiva según el contenido
+        h2 3.3 Uso adecuado de diseños de diapositiva según el contenido
       .row.bg-c18
         .col-12
           .px-5
@@ -234,9 +234,9 @@
               .col-lg(data-aos="fade-left")
                 p.text-white.mb-0 Desde una perspectiva profesional, se recomienda mantener coherencia en el uso de diseños a lo largo de toda la presentación. Emplear estructuras consistentes fortalece la identidad visual, proyecta orden y facilita el seguimiento del contenido. Asimismo, conviene priorizar la simplicidad, evitando incorporar elementos innecesarios que compitan por la atención del público.
       Separador
-      #t_3_3
+      #t_3_4
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.3 Jerarquía de la información y secuencia visual
+        h2 3.4 Jerarquía de la información y secuencia visual
       .row.align-items-center.mb-4
         .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
           figure

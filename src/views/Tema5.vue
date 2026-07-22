@@ -37,7 +37,7 @@
         .col-12
           .p-5.bg-c15(data-aos="fade-right")
             figure
-              img(src="@/assets/curso/tema5/img2.png", alt="Texto alternativo: Menú Insertar de PowerPoint con opciones para agregar imágenes desde dispositivo, banco de imágenes o recursos en línea.", style="width: 500px;").m-auto
+              img(src="@/assets/curso/tema5/img2.png", alt="Menú Insertar de PowerPoint con opciones para agregar imágenes desde dispositivo, banco de imágenes o recursos en línea.", style="width: 500px;").m-auto
       .row.mb-4
         .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
           .row.mb-3

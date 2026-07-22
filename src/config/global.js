@@ -97,8 +97,13 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Jerarquía de la información y secuencia visual ',
+            titulo: 'Uso adecuado de diseños de diapositiva según el contenido',
             hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Jerarquía de la información y secuencia visual',
+            hash: 't_3_4',
           },
         ],
       },
@@ -285,11 +290,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
@@ -341,12 +346,18 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania',
-          cargo: 'Animador y productor multimedia',
+          cargo: 'Animador y productor audiovisual',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'María Carolina Tamayo López',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo Lopez',
           cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -363,7 +374,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Ricardo Oliceveros Zambrano',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

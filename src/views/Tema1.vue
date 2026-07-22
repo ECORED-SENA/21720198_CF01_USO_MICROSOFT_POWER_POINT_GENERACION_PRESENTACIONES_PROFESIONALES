@@ -117,7 +117,7 @@
                 figure
                   img(src="@/assets/curso/tema1/img2.png", alt="", style="width: 60px;").m-auto
               .col-lg(data-aos="fade-left")
-                p.text-white.mb-0 En conclusión, se propone un aprovechamiento integral de Microsoft PowerPoint no solo para presentar información, sino para construir experiencias de usuario orientadas a la comprensión efectiva y a la retención del mensaje por parte del receptor (Centro de Escritura Javeriano, 2022).
+                p.text-white.mb-0 En conclusión, se propone un aprovechamiento integral de Microsoft PowerPoint, no solo para presentar información, sino para construir experiencias de usuario orientadas a la comprensión efectiva y a la retención del mensaje por parte del receptor (Centro de Escritura Javeriano, 2022).
       Separador
       #t_1_3
       .titulo-segundo.color-acento-contenido(data-aos="flip-up")

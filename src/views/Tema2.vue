@@ -25,7 +25,7 @@
                       p Desde una perspectiva profesional, no basta con conocer superficialmente las funciones básicas del programa. Resulta necesario comprender cómo se organiza la interfaz, qué funciones se agrupan en cada sección y de qué manera pueden personalizarse según el tipo de proyecto. Este reconocimiento avanzado permite adaptar el entorno de trabajo a las necesidades específicas de cada presentación y facilita la aplicación de estándares visuales y metodológicos propios del entorno productivo.
                       figure.d-flex.justify-content-end
                         img(src="@/assets/curso/tema2/img1.svg", alt="", style="width: 60px;")
-            p.mb-4(data-aos="fade-left") Asimismo, el conocimiento del entorno de Microsoft PowerPoint favorece la autonomía del usuario, ya que reduce la dependencia de instrucciones externas y fortalece la capacidad para resolver situaciones prácticas durante el diseño de presentaciones, en coherencia con el enfoque de aprendizaje autónomo. A continuación, se sintetizan los principales beneficios de reconocer el entorno de trabajo del software:
+            p.mb-4(data-aos="fade-left") Asimismo, el conocimiento del entorno de Microsoft PowerPoint favorece la autonomía del usuario, ya que reduce la dependencia de instrucciones externas y fortalece la capacidad para resolver situaciones prácticas durante el diseño de presentaciones, en coherencia con el enfoque de aprendizaje autónomo. A continuación, se sintetizan los principales beneficios de reconocer el entorno de trabajo del #[i software]:
             .row.align-items-center
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
@@ -469,7 +469,7 @@
                   img(src="@/assets/curso/tema1/img2.png", alt="", style="width: 60px;").m-auto
               .col-lg(data-aos="fade-left")
                 p.text-white #[b Tip de productividad:]
-                p.text-white.mb-0 Memorizar primero entre cinco y diez atajos de uso frecuente genera mejoras inmediatas en velocidad de trabajo. Posteriormente, pueden incorporarse nuevos comandos según el tipo de proyecto desarrollado.
+                p.text-white.mb-0 Memorizar primero entre cinco y diez atajos de uso frecuente genera mejoras inmediatas en la velocidad de trabajo. Posteriormente, pueden incorporarse nuevos comandos según el tipo de proyecto desarrollado.
 
 </template>
 
