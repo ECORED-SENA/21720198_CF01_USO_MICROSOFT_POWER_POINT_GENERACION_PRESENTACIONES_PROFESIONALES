@@ -205,7 +205,7 @@
             .row(titulo="Paso 2. Activación de la herramienta")
               .col-12
                 p.mb-0.ms-5 En el menú desplegable, elegir Volver a utilizar diapositivas.
-            .row(titulo="Paso 3. Selección de archivo origen")
+            .row(titulo="Paso 3. Selección de archivo de origen")
               .col-12
                 p.mb-0.ms-5 En el panel lateral, buscar y seleccionar la presentación de origen.
             .row(titulo="Paso 4. Selección del contenido")
